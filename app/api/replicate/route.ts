@@ -11,7 +11,7 @@ export async function POST(request: Request) {
 
   // 2. Initialize the replicate object with our Replicate API token
   const replicate = new Replicate({
-    auth: process.env.REPLICATE_API_TOKEN as string,
+    auth: 'r8_AA1rqAhTEQBJAsbI8J5dCb5JWmX8AfB4Wq6YQ',
   });
 
   // 3. Set the model that we're about to run
